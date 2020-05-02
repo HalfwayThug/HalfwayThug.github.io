@@ -1,0 +1,200 @@
+*{
+    font-family: 'Roboto' sans-serif;
+}
+.header{
+    position: relative;
+}
+nav{
+    min-height: 50px;
+    background-color: #212121;
+
+}
+.menu{
+    padding: 13px 70px;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.menu .menu_link{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300; 
+}
+.menu .menu_item{
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+.menu li:nth-child(6){
+    border: none;
+}
+.subheader{
+    min-height: 84px;
+    background-color: rgba(0,0,0, .6);
+    position: absolute;
+    width: 100%;
+}
+.subheader .subheader-logo{
+    max-width: 100%;
+    margin-top: 16px;
+    display: block;
+
+}
+.subheader .subheader-official{
+    opacity: 0.5;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 6px;
+}
+.subheader .subheader-call{
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: right;
+  margin-top: 23px;
+}
+.subheader .subheader_phone{
+    font-family: Roboto;
+    font-size: 22px;
+    color: #ffffff;
+    text-align: right;
+    display: block;
+    margin-top: 8px;
+    line-height: 12px;
+}
+.subheader .subheader_btn{
+    width: 172px;
+  height: 46px;
+  box-shadow: inset 0px -3px 0 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+  text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+  font-family: Roboto;
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 19px 0 19px 0;
+}
+.promo{
+    min-height: 800px;
+    background: url(../img/uberbg.png) center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+
+    
+}
+.promo .promo_header{
+    font-size: 60px;
+  font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 60px;
+    margin: 0;
+}
+.promo .promo_inv{
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.33;
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+    margin-top: 22px;
+}
+.promo .promo_descr{
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 23px;
+  }
+  .promo .promo_btn{
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0px -4px 0 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+    display: block;
+    text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 3.78;
+    text-align: center;
+    color: #ffffff;
+    margin:118px auto 0 auto;
+  }
+
+  .adv{
+   min-height: 800px;
+   padding: 70px 0 65px 0;
+  }
+  .adv .adv_name{
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+    font-family: Roboto;
+    font-size: 11px;
+    font-weight: 100;
+    text-align: center;
+    color: #ffffff;
+    margin: 0 auto;
+    padding-top: 4px;
+  }
+  .adv .adv_header{
+      margin: 0 auto;
+      font-family: Roboto;
+  font-size: 38px;
+  font-weight: bold;
+  line-height: 1.26;
+  text-align: center;
+  color: #222222;
+  text-transform: uppercase;
+  margin-top: 44px;
+  margin-bottom: 40px;
+}
+.adv .adv_round{
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+    margin-top: 10px;
+  
+}
+.adv .adv_img{
+    display: block;
+    margin: 0 auto;
+    align-self: center;
+}
+.adv .adv_descr-head{
+    font-size: 17px;
+    font-weight: normal;
+    color: #1eacc7;
+    width: 305px;
+    margin-left: -20px;
+}
+.adv .adv_descr{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.4;
+    text-align: justify;
+    color: #202020;
+    height: 140px;
+    margin-left: -20px;
+    width: 340px;
+}
+.adv .img_bot{
+    margin-top: -12px;
+}
