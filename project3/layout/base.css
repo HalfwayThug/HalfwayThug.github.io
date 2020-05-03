@@ -1,0 +1,43 @@
+
+html, body{
+    height: 100%;
+
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+}
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.container{
+    width: 1366px;
+    margin: 0 auto;
+    min-height: 100%;
+}
+.slider--padding{
+    padding-left: 98px;
+    padding-right: 167px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+a{
+    text-decoration: none ;
+}
+
+    

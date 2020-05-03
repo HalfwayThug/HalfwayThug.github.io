@@ -1,0 +1,56 @@
+.float__four{
+    margin-top:120px;
+    padding-left: 98px;
+    display: inline-block;
+}
+.float__four .float__four-img2{
+    padding-left: 28px;
+    padding-bottom: 23px;
+}
+
+.float__four-img1{
+    width: 570px;
+  height: 570px;
+    background-image: url(../img_floor4/product-1-lg.jpg);
+    padding-top: 10px;
+    
+    float: left;
+}
+.float__four-exclusive {
+    margin-top: 170px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1e88e5;
+    text-transform: uppercase;
+    margin-left: 31px;
+    letter-spacing: 1px;
+ }
+.floar__four-maintext {
+    margin-top: 9px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #212121;
+    margin-left: 30px;
+    letter-spacing: -1px;
+}
+ 
+.floar__four-text { 
+    font-size: 14px;
+    font-weight: 300;
+    color: #6c6c6c;
+    margin-top: 9px;
+    margin-left: 30px;
+    width: 347px;
+    line-height: 1.71;
+    letter-spacing: 0px;
+    word-spacing: -1px;
+}
+.floar__four-button { 
+    margin-top: 29px;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+.floar__four-arrow { 
+display: inline-block;
+padding-left: 10px;
+}

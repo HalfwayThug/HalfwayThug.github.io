@@ -1,0 +1,82 @@
+.floor-one__middle{
+    margin-top: 52px;
+    margin-left:75px;
+}
+.floor-one__middle div{
+    display: inline-block;
+}
+
+.middle__img1, .middle__img2, .middle__img3, .middle__img4{
+    width: 270px;
+    height: 270px;
+    
+    margin-left: 25px ;
+}
+.middle__img1{
+    background-image: url(../img/product-1.jpg);
+    position: relative;
+}
+.middle__img2{
+    background-image: url(../img/product-2.jpg);
+    position: relative;
+}
+.middle__img3{
+    background-image: url(../img/product-3.jpg);
+    position: relative;
+}
+.middle__img4{
+    background-image: url(../img/product-4.jpg);
+    position: relative;
+}
+.middle__imghover{
+    position: absolute ;
+    width: 270px;
+    height: 270px;
+    border: 1px solid black;
+    background-image: url(../img/back.png);
+    display: none !important;
+}
+.middle__button{
+    width: 48px;
+    height: 48px;
+    margin-left: 110px;
+    margin-top: 62px;
+     border-radius: 24px; 
+    box-shadow: 0px 2px 4.9px 0.2px rgba(33, 33, 33, 0.35);
+    background-color: #ffffff;
+    background: url(../img/arrow.svg) no-repeat;
+    background-position: 50% 50%;
+   
+}
+.middle__img1:hover>.middle__imghover{
+    display: inherit !important ;
+}
+.middle__img2:hover>.middle__imghover{
+    display: inherit !important ;
+    }
+.middle__img3:hover>.middle__imghover{
+    display: inherit !important ;
+        }
+.middle__img4:hover>.middle__imghover{
+   display: inherit !important ;
+     }
+.middle__text1{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 9px;
+
+}
+.middle__text2{
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 10px;
+    
+  color: #6c6c6c;
+}
+.middle__button:hover{
+background-color: #948a8a4f;;
+}

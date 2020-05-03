@@ -1,0 +1,97 @@
+
+.slider{
+    height: 800px;
+    background-image: url(../img/silder_img1.jpg);
+    position: relative;
+}
+
+
+.menu__list{
+    float:left;
+}
+.menu__list-link{
+    color: #8c8c8c;
+    font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 5px 13px;
+    letter-spacing: 1.4px;
+
+  
+}
+.menu__list-link:hover{
+    color:#383636;
+    
+}
+.menu__list-link--active{
+    font-weight: bold;
+    color: #212121;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+}
+.slider__text{
+    margin-top: 288px;
+}
+.slider__text-trending{
+    color: #43a047;
+    font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-top: -8px;
+}
+
+.slider__text-head{
+font-size: 62px;
+font-weight: 100;
+color: #212121;
+text-transform: uppercase;
+letter-spacing: -3px;
+}
+.slider__text-content{
+font-size: 14px;
+font-weight: 300;
+color: #6c6c6c;
+width: 480px;
+margin-top: 14px;
+line-height: 1.68;
+}
+.slider__text-button{
+    margin-top: 27px;
+    padding: 12px;
+    padding-right: 37px;
+}
+.slider__arrow{
+    margin-left: 162px;
+    margin-top: -24px;
+}
+
+.slider__paggination{
+    position:absolute;
+    bottom:19px;
+    text-align: center;
+    width: 1170px;
+    
+
+}
+.paggination__circle{
+    width:30px;
+    height: 30px;
+    display: inline-block;
+    background-color: #c7c7c7;
+    border-radius: 50%;
+    margin: 2px;
+}
+.paggination__circle--active{
+    width: 40px;
+    height: 40px;
+    background-color: #212121;
+    margin: -2px 3px
+}
+.paggination__circle:hover{
+    width:35px;
+    height: 35px;
+    display: inline-block;
+    background-color: #c7c7c7;
+    border-radius: 50%;
+}

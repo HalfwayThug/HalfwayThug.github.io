@@ -1,0 +1,58 @@
+.contact-us{
+    margin-top: 70px;
+    margin-left: 67px;
+    
+}
+.cont1{
+    width: 370px;
+    height: 370px;
+    float: left;
+    border: 1px solid black;
+    margin-left: 30px;
+}
+.contact-us-logo {
+    background-image: url(../logo/logo_loc.png);
+width: 38px;
+height: 48px;
+margin: 0 auto;
+margin-top: 48px;
+ }
+.contact-us__place { 
+    font-size: 22px;
+    font-weight: bold;
+    color: #212121;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 27px;
+}
+.contact-us__contacts {
+    font-size: 14px;
+    font-weight: bold;
+    color: #6c6c6c;
+    text-align: center;
+    margin-top: 14px;
+
+ }
+.phone-num { 
+    font-size: 14px;
+    font-weight: bold;
+    color: #212121;
+    margin-top: 3px;
+    text-align: center;
+    display: block;
+    
+}
+.email_ad {
+    font-size: 14px;
+    font-weight: bold;
+    color: #212121;
+    display: block;
+    text-align: center;
+ }
+.cont-fact-address {
+    font-size: 14px;
+    font-weight: 300;
+    color: #6c6c6c;
+    text-align: center;
+    margin-top: 3px;
+ }

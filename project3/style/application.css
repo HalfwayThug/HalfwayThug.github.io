@@ -1,0 +1,45 @@
+.application{
+    padding-top: 121px;
+    width: 1366px;
+    height: 516px;
+    margin-top: 95px;
+    background-image: url(../img/back-img.jpg);
+    padding-left: 100px;
+}
+
+.application__mobile-app {
+    font-size: 18px;
+    font-weight: bold;
+    color: #6c6c6c;
+    text-transform: uppercase;
+
+ }
+ 
+.application__main-text {
+    font-size: 62px;
+    font-weight: 100;
+    color: #212121;
+    width: 475px;
+    letter-spacing: -4px;
+    line-height: 1.16;
+    text-transform: uppercase;
+}
+ 
+.application__text { 
+    font-size: 22px;
+    font-weight: 300;
+    color: #6c6c6c;
+    margin-top: 10px;
+    margin-left: -1px;
+}
+.app-buttons{
+    margin-top: 33px;
+    margin-left: -1px;
+    padding-left: 0px;
+}
+.application__googleplay {
+padding-left: 5px;
+ }
+ .app-buttons a:hover{
+     opacity: 0.8;
+ }

@@ -1,0 +1,36 @@
+
+.floor-three__slider{
+    height: 800px;
+    background-image: url(../img/slider_img2.jpg);
+    position: relative;
+    margin-top: 117px;
+    padding-top: 50px;
+    
+}
+.slider__text__three{
+    margin-top: 232px;
+}
+.slider__text-hot-deal{
+    color:#e53935 ;
+    font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+.slider__text-head__three{
+    font-size: 62px;
+    font-weight: 100;
+    color: #212121;
+    text-transform: uppercase;
+    letter-spacing: -3px;
+}
+.slider__text-content__three{
+    font-size: 14px;
+font-weight: 300;
+color: #6c6c6c;
+width: 480px;
+margin-top: 14px;
+line-height: 1.68;
+word-spacing: -1px;
+
+}
